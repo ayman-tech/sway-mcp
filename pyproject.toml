@@ -1,0 +1,17 @@
+[project]
+name = "sway-mcp"
+version = "0.1.0"
+description = "MCP server exposing Sway tasks to AI agents."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.0",
+    "httpx>=0.28.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+sway-mcp = "sway_mcp.server:main"
