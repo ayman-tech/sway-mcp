@@ -2,7 +2,7 @@
 
 Connect an MCP-compatible AI agent to your hosted Sway account. The server runs locally over stdio and sends authenticated task requests to `https://api.sway.aymanai.com`.
 
-Developers can refer the repository of main app : [Sway](https://github.com/ayman-tech/sway-mcp)
+Developers can refer the repository of main app : [Sway](https://github.com/ayman-tech/sway)
 
 
 ## Available tools
